@@ -1,0 +1,16 @@
+﻿// ----------------------------------------------------------------------------------
+// Copyright (c) The Standard Organization: A coalition of the Good-Hearted Engineers
+// ----------------------------------------------------------------------------------
+
+using System;
+using Xeptions;
+
+namespace Yarp.Microservices.Customers.Api.Models.Foundations.Customers.Exceptions
+{
+    public class FailedStorageCustomerException : Xeption
+    {
+        public FailedStorageCustomerException(string message, Exception innerException)
+            : base(message, innerException)
+        { }
+    }
+}

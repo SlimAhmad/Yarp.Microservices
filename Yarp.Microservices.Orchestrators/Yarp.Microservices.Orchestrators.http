@@ -1,0 +1,6 @@
+@Yarp.Microservices.Orchestrators_HostAddress = http://localhost:5078
+
+GET {{Yarp.Microservices.Orchestrators_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

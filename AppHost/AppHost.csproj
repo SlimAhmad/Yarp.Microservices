@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>7e35a4c9-4070-441a-8826-870f3331d02d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Arshid.Aspire.ApiDocs.Extensions" Version="9.2.0.2" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.1" />
+    <PackageReference Include="Aspire.Hosting.Keycloak" Version="9.1.0-preview.1.25121.10" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="9.2.1" />
+    <PackageReference Include="Aspire.Keycloak.Authentication" Version="9.1.0-preview.1.25121.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppHost.ServiceDefaults\AppHost.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\Yarp.Microservice.Gateway\Yarp.Microservice.Gateway.csproj" />
+    <ProjectReference Include="..\Yarp.Microservices.Auth.Api\Yarp.Microservices.Auth.Api.csproj" />
+    <ProjectReference Include="..\Yarp.Microservices.Orchestrators\Yarp.Microservices.Orchestrators.csproj" />
+    <ProjectReference Include="..\Yarp.Microservices.Orders.Api\Yarp.Microservices.Orders.Api.csproj" />
+    <ProjectReference Include="..\Yarp.Microservices.Student.Api\Yarp.Microservices.Customers.Api.csproj" />
+  </ItemGroup>
+
+</Project>
