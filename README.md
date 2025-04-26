@@ -1,1 +1,3 @@
 # Yarp.Microservices
+
+In this project, I'm documenting my learning path as I dive deeper into building modern, scalable applications. I started by exploring microservices architecture, focusing on separating concerns, communication patterns, and deploying independent services. Along the way, I integrated OData to create flexible, queryable APIs, giving clients powerful data access capabilities. Recently, I’ve begun working with .NET Aspire, leveraging its tools to simplify cloud-native app development and streamline the setup of distributed systems. This repository captures my experiments, learnings, and growing understanding of these technologies.
